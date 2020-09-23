@@ -10,7 +10,7 @@ public class HTTPRESTUNI {
     String[] servers = {"35001","35002","35003"}; 
     String actualServer = "";
     int nServer=0;
-    String mainUrl = "http://localhost:";
+    String mainUrl = "http://54.210.150.219:";
 
     public HTTPRESTUNI() {
         this.actualServer = servers[nServer];

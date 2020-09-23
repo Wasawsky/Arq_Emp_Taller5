@@ -8,8 +8,10 @@ docker build --tag logservice .
 docker build --tag applbroundrobin .
 
 
-docker run -dp 35001:35000 --name logservice1 logservice
+docker run -dp 35001:35000 --name logservice1 wasawsky/taller5arep:latest
 
-docker run -dp 35002:35000 --name logservice1 logservice
+docker run -dp 5000:5000 --name applbroundrobin1 applbroundrobin 
 
-docker run -dp 35003:35000 --name logservice1 logservice
+docker tag applbroundrobin wasawsky/taller5areprobin
+
+docker push wasawsky/taller5areprobin:tagname

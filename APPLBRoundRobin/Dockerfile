@@ -6,7 +6,7 @@ WORKDIR /usrapp/bin
 
  
 
-ENV PORT 5000
+ENV PORT 6000
 
  
 

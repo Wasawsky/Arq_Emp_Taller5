@@ -1,0 +1,15 @@
+docker run -dp 27017:27017 --name mongodb mongo
+docker exec -it mongodb bash
+docker ps -a
+docker rm #
+docker stop #
+
+docker build --tag logservice .
+docker build --tag applbroundrobin .
+
+
+docker run -dp 35001:35000 --name logservice1 logservice
+
+docker run -dp 35002:35000 --name logservice1 logservice
+
+docker run -dp 35003:35000 --name logservice1 logservice

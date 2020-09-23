@@ -9,6 +9,7 @@ http://ec2-54-210-150-219.compute-1.amazonaws.com:5000/index
 Este repositorio presenta un despliegue abaja escala de un servicio usando Docker , usando las herramientas Maven, AWS, Docker, Spark, Git y JAVA para su desarrollo.
 
 Encuentre los repositorios en Docker
+
 https://hub.docker.com/repository/docker/wasawsky/taller5areprobin
 
 https://hub.docker.com/repository/docker/wasawsky/taller5arep
@@ -33,7 +34,7 @@ Se puede apreciar el estado de las imagenes y contenedores que usa Docker para p
 
 ![](/resources/img/ec21.JPG)
 
-Puede encontrar el informe en https://github.com/Wasawsky/Arq_Emp_Taller4
+Puede encontrar el informe completo en https://github.com/Wasawsky/Arq_Emp_Taller5/tree/master/resources/report
 
 ### Prerrequisitos
 
